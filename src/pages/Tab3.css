@@ -1,0 +1,15 @@
+.tab3-page{
+    justify-content: start !important;
+}
+.brightness-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    text-align: center;
+}
+ion-badge{
+    margin:auto;
+}
+ion-range{
+    width:100%;
+}

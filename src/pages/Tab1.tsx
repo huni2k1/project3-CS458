@@ -13,7 +13,7 @@ const Tab1: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <div className="imageContainer">
-      <img className='amazonLogo' src="\assets\amazonIcon.jpg"/>
+      <IonImg className='amazonLogo' src="\assets\amazonIcon.jpg"/>
       </div>
       <Login/>
     </IonPage>
