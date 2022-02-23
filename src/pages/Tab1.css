@@ -1,0 +1,16 @@
+.tab1Page{
+    justify-content: start !important;
+}
+.header{
+    
+}
+.amazonLogo{
+    max-width:20%;
+    height:auto;
+    justify-content: center;
+}
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

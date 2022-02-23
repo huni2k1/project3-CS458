@@ -1,23 +1,21 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonImg,IonIcon,IonContent, IonHeader, IonInput, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
+import Login from '../components/Login'
 import './Tab1.css';
-
+import React, { useState } from 'react';
 const Tab1: React.FC = () => {
+  const [text, setText] = useState<string>();
   return (
-    <IonPage>
-      <IonHeader>
+    <IonPage className='tab1Page'>
+      <IonHeader className='header'>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle color='warning'>Homepage</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 1</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer name="Tab 1 page" />
-      </IonContent>
+      <div className="imageContainer">
+      <img className='amazonLogo' src="\assets\amazonIcon.jpg"/>
+      </div>
+      <Login/>
     </IonPage>
   );
 };

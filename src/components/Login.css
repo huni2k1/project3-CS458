@@ -1,0 +1,29 @@
+.loginContainer{
+    width: 80%;
+    height: 35%;
+    margin:auto;
+    border-radius: 30px;
+}
+.ionList{
+    justify-content: none;
+    padding:15px;
+    border-radius: 30px;
+}
+.label{
+    padding-left:16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input{
+    padding-left:5px !important;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+}
+.login-button{
+    
+}
+.login-container{
+    display:flex;
+    justify-content: center;
+}
